@@ -1,0 +1,47 @@
+.nav-products {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.nav-products__but-item {
+    margin-left: 8px;
+    padding: 6px 22px;
+    font-family: inherit;
+    height: 38px;
+    left: 576px;
+    top: 174px;
+    border-style: none;
+    border: 1px solid #F5F4FA;
+    background: $background-button-tab;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    outline-color: none;
+    color: $secondary-text-color;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    &:hover,
+    &:focus {
+    background-color:$active-color;
+    color: $color-white;
+    border-color: $active-color;
+}
+}
+
+/* убирает черный  бордер по умолчанию */
+button:active,
+button:focus {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}

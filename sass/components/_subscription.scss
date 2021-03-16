@@ -1,0 +1,71 @@
+.subscribe {
+    margin-left: 93px;
+}
+
+.form-subscribe {
+    display: flex;
+    justify-content: start;
+    width: 570px;
+}
+
+.form-subscribe__subscribe-field {
+    position: relative;
+}
+
+
+.sign-in h3 {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: block;
+    height: 16px;
+    margin-bottom: 20px;
+}
+
+.form-subscribe__subscribe-input {
+    width: 356px;
+    padding: 15px 16px;
+    margin-right: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: inherit;
+    color: $primary-text-color;
+}
+
+.orm-subscribe__subscribe-input::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+.form-subscribe__subscribe-btn {
+    position: relative;
+    padding: 10px 62px 10px 29px;
+    display: inline-block;
+    min-width: 200px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: $color-white;
+    background-color: $active-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.send-icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 28px;
+    top: 13px;
+}
